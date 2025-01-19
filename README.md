@@ -215,12 +215,20 @@ This tutorial outlines the implementation and configuration of Active Directory 
 
 
   - Type "Active Directory Users and Computers" in the Windows search bar and open the program.
-    - Create an organizational unit called "_EMPLOYEES"
+    - (Right click the the name of your created domain) and Create an organizational unit called "_EMPLOYEES"
       ![image](https://github.com/user-attachments/assets/a92ea68a-5170-4237-b32f-e89e28fd514c)
       ![image](https://github.com/user-attachments/assets/bd905b6b-9574-4eea-8cdb-6c06d6cd5774)
 
-    - Create another organizatinal unit called "_ADMINS"
+    - Create another organizational unit called "_ADMINS"
       ![image](https://github.com/user-attachments/assets/c17ced2b-4290-4e23-8baa-d1b41f64baa8)
+
+
+    - Create a new user in the "_ADMINS" organizational unit (assign whatever username and password credentials you would like)
+    ![image](https://github.com/user-attachments/assets/d023852e-08c4-4b4c-8d1d-f9a37eabfdc4)
+
+     - Uncheck "User must change password at next logon"
+    
+    ![image](https://github.com/user-attachments/assets/8662eba3-2acc-4ed0-a605-90359439ecc9)
 
 
 
