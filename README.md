@@ -247,5 +247,16 @@ This tutorial outlines the implementation and configuration of Active Directory 
 </h3>
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<h2> STEP 4.5: Logout of the Domain Controller VM as the current Admin Account and Log in as the newly created Domain Admin Account </h2>
+<h2> STEP 4.5: Logout of the Domain Controller VM as the current Admin Account and Log in as the newly created Domain Admin Account to Verify the Admin Account's creation. </h2>
+
+- I will be using this account for all administrative functions on the domain controller for the rest of the lab.
+    - Feel free to do the same.
+ 
+    - NOTE: You can use any of these variations to login as users in the domain
+      - domainname\username: (eg. timsdomain.com\mr_robot)
+      - username@domainname: (eg. mr_robot@timsdomain.com)
+     
+      ![image](https://github.com/user-attachments/assets/40512e61-1ba8-4a76-99c2-c8ec873ea17e) ![image](https://github.com/user-attachments/assets/addd99d6-f872-4f64-82c7-345df553d05a)
+
+
 
