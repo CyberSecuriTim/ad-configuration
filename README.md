@@ -323,4 +323,12 @@ This tutorial outlines the implementation and configuration of Active Directory 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <h2> Congratulations! You have successfully installed and configured Active Directory within your VM's and now have a domain with a Domain Controller and a 
-  a Domain Client. </h2>
+  a Domain Client. 🎊</h2>
+
+  <h5> If you would like to take a temporary break and want to reduce the cost of hosting your VM and computing resources in Azure then you can 
+       Stop/Deallocate your VM's within the Azure portal. </h5>
+
+  - From the Azure portal's home page, navigate to the "Virtual Machines" resources and highlight both your VM's then select "Stop"
+
+![image](https://github.com/user-attachments/assets/ce721488-50e2-463c-a055-07046d8e8a74)
+
