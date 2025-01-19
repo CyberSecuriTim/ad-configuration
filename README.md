@@ -198,3 +198,8 @@ This tutorial outlines the implementation and configuration of Active Directory 
  
   ![image](https://github.com/user-attachments/assets/3ab63fbf-a82d-4b51-887b-3a3b15dc8a03)
 
+   - "Paths": Leave default configurations
+   - "Review Options"
+
+  ![image](https://github.com/user-attachments/assets/b418bee9-5f33-4822-800c-490086f9996a)
+
