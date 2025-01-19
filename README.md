@@ -301,7 +301,7 @@ This tutorial outlines the implementation and configuration of Active Directory 
 <h2> STEP 5.5: Reconnect to the Domain Controller VM to verify that the other VM has successfully joined the domain.</h2>
 
 - Login to the VM using either of the admin accounts that have been created so far (i.e. the local admin account or the recently created Domain Admin account)
-  - I will be using the latter.
+  - I will be using the latter (the mr_robot account).
 
 ![image](https://github.com/user-attachments/assets/f9663cc7-b513-4b9a-8380-0aeee66f36b7)
 
