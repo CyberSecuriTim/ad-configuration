@@ -192,3 +192,9 @@ This tutorial outlines the implementation and configuration of Active Directory 
     - Assign the Directory Services Restore Mode (DSRM) password...hopefully you won't need to use this 😅
    
     ![image](https://github.com/user-attachments/assets/4db7d981-2fc5-4102-a7b0-939d66f38840)
+
+    - "DNS Options": Leave "create DNS delegation" unchecked
+  - Additional Options": verify the NetBIOS name
+ 
+  ![image](https://github.com/user-attachments/assets/3ab63fbf-a82d-4b51-887b-3a3b15dc8a03)
+
