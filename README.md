@@ -155,7 +155,7 @@ This tutorial outlines the implementation and configuration of Active Directory 
 
 ![image](https://github.com/user-attachments/assets/326a170d-2267-431a-ab39-ebae8484de34)
 
- 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 
 <h2> STEP 3: Return to the Dom-Con virtual machine (running Windows Server 2022) and Install Active Directory</h2>
 
@@ -174,5 +174,15 @@ This tutorial outlines the implementation and configuration of Active Directory 
   - Confirmation: [X] Restart the destination server automatically if required.
 
   - Let the installation process run its course within the "Add Roles and Features Wizard".
-    - "Promote this server to a domain controller" when prompted.    
-            
+    - "Promote this server to a domain controller" when prompted.
+      ![image](https://github.com/user-attachments/assets/2e9c8d44-80cd-424c-9a81-51c0cadb3921)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<h2> STEP 4: Create a new Forest in active directory </h2>
+
+- Within the "Active Directory Domain Services Configuration Wizard"
+  - Under "Deployment Configuration"
+    - Deployment operation: Add a new forest
+    - Root domain name: (name it whatever you would like)...within the domain nomenclature rules
+   ![image](https://github.com/user-attachments/assets/f4b67a88-a7c1-4316-8426-b930a32dfdda)
