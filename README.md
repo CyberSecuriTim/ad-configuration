@@ -80,7 +80,8 @@ This tutorial outlines the implementation and configuration of Active Directory 
   - Select the virtual network interface card for the VM
     - Select "ipconfig1"
       - Change the Private IP address allocation to static and save the changes
-      ![image](https://github.com/user-attachments/assets/55eed588-7256-4b5f-8ba6-1a0c558ebab5)
+    
+    ![image](https://github.com/user-attachments/assets/55eed588-7256-4b5f-8ba6-1a0c558ebab5)
  
 
 
