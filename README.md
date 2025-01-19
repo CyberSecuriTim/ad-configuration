@@ -3,7 +3,7 @@
 </p>
 
 <h1>Configuring and Deploying Active Directory in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of Active Directory within Azure Virtual Machines.<br />
+This tutorial outlines the implementation and configuration of Active Directory within Azure Virtual Machines.<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -19,10 +19,12 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1: Create the Domain Controller VM
+- Step 2: Create the Domain client VM
+- Step 3: Install Active Directory
+- Step 4: Create an Active Directory Forest/Domain
+- Step 5: Join the Domain Client VM to the created Domain
+- Step 6: Configure Remote Desktop Access for Non-administrative users on the Domain client VM
 
 <h2>Deployment and Configuration Steps</h2>
 
