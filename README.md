@@ -203,3 +203,11 @@ This tutorial outlines the implementation and configuration of Active Directory 
 
   ![image](https://github.com/user-attachments/assets/b418bee9-5f33-4822-800c-490086f9996a)
 
+- Perform the prerequisites check then click install
+  - The VM will restart. Do not be alarmed if you are disconnected just reconnect via your RDP client.
+ 
+- When reconnecting to the VM, slightly change your username credential by appending the name of your domain before the original username (eg. timsdomain.com\dom- 
+  con-admin)
+    - The password remains the same as the original.
+ 
+  ![image](https://github.com/user-attachments/assets/9553e529-28bb-47a4-a208-396b68d85088)
