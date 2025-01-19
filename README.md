@@ -119,7 +119,14 @@ This tutorial outlines the implementation and configuration of Active Directory 
      ![image](https://github.com/user-attachments/assets/60c3cbb9-094e-419b-9dd9-46e4c25eba26)
      ![image](https://github.com/user-attachments/assets/43886d7f-8309-4bf4-8621-a8a93eb6d979)
 
-   - 
+   - Access the Dom-Client VM's network settings again.
+     - Select its virtual Network Interface Card
+       - Select DNS servers settings
+         - Change the DNS servers to custom and enter the private IP address of the Dom-Con VM.
+         - Save your changes     
+
+![image](https://github.com/user-attachments/assets/61ba7180-f667-40b4-82a8-20c7df5c1a9e)
+ 
 
 
             
