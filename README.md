@@ -219,4 +219,8 @@ This tutorial outlines the implementation and configuration of Active Directory 
       ![image](https://github.com/user-attachments/assets/a92ea68a-5170-4237-b32f-e89e28fd514c)
       ![image](https://github.com/user-attachments/assets/bd905b6b-9574-4eea-8cdb-6c06d6cd5774)
 
+    - Create another organizatinal unit called "_ADMINS"
+      ![image](https://github.com/user-attachments/assets/c17ced2b-4290-4e23-8baa-d1b41f64baa8)
+
+
 
