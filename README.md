@@ -148,6 +148,13 @@ This tutorial outlines the implementation and configuration of Active Directory 
 
    - The command should have sent four ICMP echo request (ping) packets and received four ICMP Echo Replies as well as some network diagnostic data such as TTL 
     (time to live) values and latency (round trip times).
+
+
+  - Within the command prompt type one more command "ipconfig /all"
+    - The DNS server configuration setting should match Dom-Con's private IP address.
+
+![image](https://github.com/user-attachments/assets/326a170d-2267-431a-ab39-ebae8484de34)
+
  
 
 
