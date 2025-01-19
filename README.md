@@ -237,3 +237,5 @@ This tutorial outlines the implementation and configuration of Active Directory 
 
   ![image](https://github.com/user-attachments/assets/3673cecd-a452-4ea5-bdbc-86ca125efde9)
 
+ - Apply the changes and select "OK"
+ - 
