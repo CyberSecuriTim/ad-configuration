@@ -74,6 +74,18 @@ This tutorial outlines the implementation and configuration of Active Directory 
 
      ![image](https://github.com/user-attachments/assets/d4df4d55-5f37-4196-aa4d-1c6641ff745f)
 
+<h3> STEP 1.5: Set the (future) Domain Controller VM's private IP address assignment to be static</h3>
+
+- Select the "Dom-Con" VM then under the "Networking" section select "Network settings" 
+  - Select the virtual network interface card for the VM
+    - Select "ipconfig1"
+      - Change the Private IP address allocation to static and save the changes
+      ![image](https://github.com/user-attachments/assets/55eed588-7256-4b5f-8ba6-1a0c558ebab5)
+ 
+
+
+
+
 
 <h2> STEP 2: Create another Windows virtual machine that will be joined to the Active Directory domain as a client.  </h2>
 
@@ -88,6 +100,8 @@ This tutorial outlines the implementation and configuration of Active Directory 
          - Again the default network configurations are satisfactory.
      
      ![image](https://github.com/user-attachments/assets/60c3cbb9-094e-419b-9dd9-46e4c25eba26)
+     ![image](https://github.com/user-attachments/assets/43886d7f-8309-4bf4-8621-a8a93eb6d979)
+
 
 
             
