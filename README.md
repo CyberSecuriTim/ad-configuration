@@ -90,6 +90,15 @@ This tutorial outlines the implementation and configuration of Active Directory 
 
 ![image](https://github.com/user-attachments/assets/e7fc2ba4-5652-4b19-9ddc-ea6385ad4e9a)
 
+- Access the Windows Defender Firewall with Advanced Security. 
+  - Type "wf.msc" in the search bar in the bottom left corner
+ 
+-  Ensure that the "Core Networking Diagnostics - ICMP Echo Requests (ICMPv4-In) inbound rule is enabled and the action is set to "Allow" for all three firewall 
+    profiles (Private, Public, Domain)
+   - Sorting by protocol and looking for "ICMPv4" can help make your search for this firewall rule more efficient.
+ 
+-  NOTE: By making this configuration change on the host-based firewall we enable ourselves to use the ping command line utility later in the lab to test the 
+   connectivity of our client to the domain controller.  
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
