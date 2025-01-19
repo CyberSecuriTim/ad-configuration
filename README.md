@@ -62,5 +62,14 @@ This tutorial outlines the implementation and configuration of Active Directory 
    - Now simply select "Review + create"
        - Once the validation has been passed, click "Create" 
 
+  
+  - OPTIONAL step: Once the VM has been successfully deployed, access its network settings and select the RDP rule within the VM's network security group inbound 
+     port rules.
+      - Then Change the source IP addresses that are allowed to establish an RDP connection to the VM via port 3389 from any ip address on the internet to only known 
+        addresses (either an individual ip address or a range of known ip addresses)
+      - By restricting the allowed source IP addresses for RDP connections to only known ip addresses hardens this VM by significanly reducing its attack surface of
+        and thus bolstering its security posture. 
+
+     ![image](https://github.com/user-attachments/assets/d4df4d55-5f37-4196-aa4d-1c6641ff745f)
 
 
