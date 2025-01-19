@@ -79,5 +79,11 @@ This tutorial outlines the implementation and configuration of Active Directory 
      - Place it in the same region as well
      - VM OS image: Windows 10 Pro, version 22H2 -  x64 Gen2
      ![image](https://github.com/user-attachments/assets/b4a2d027-55f0-401d-b829-f323ccb68eb2)
+     ![image](https://github.com/user-attachments/assets/43942c39-25b4-4c1b-bdc8-a31abc702389)
 
-     - 
+     - Ensure this VM is placed into the same Virtual network and subnet as the previous VM.
+         - Again the default network configurations are satisfactory.
+     
+     ![image](https://github.com/user-attachments/assets/60c3cbb9-094e-419b-9dd9-46e4c25eba26)
+
+            
