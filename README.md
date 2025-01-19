@@ -74,3 +74,10 @@ This tutorial outlines the implementation and configuration of Active Directory 
      ![image](https://github.com/user-attachments/assets/d4df4d55-5f37-4196-aa4d-1c6641ff745f)
 
 
+   - Please repeat the steps above (including the optional VM hardening step) to create a slightly different virtual machine.
+     - Place it in the same resource group as the previous VM
+     - Place it in the same region as well
+     - VM OS image: Windows 10 Pro, version 22H2 -  x64 Gen2
+     ![image](https://github.com/user-attachments/assets/b4a2d027-55f0-401d-b829-f323ccb68eb2)
+
+     - 
