@@ -61,10 +61,11 @@ This tutorial outlines the implementation and configuration of Active Directory 
      ![image](https://github.com/user-attachments/assets/4d00bdc3-0f74-4af1-8585-6369e7e6e038)
 
    - Now simply select "Review + create"
-       - Once the validation has been passed, click "Create" 
+       - The portal may produce an error initially, just return to the "Basics" tab then click "Review and create" again then the validation should be passed.
+   - Once the validation has been passed, click "Create" 
 
   
-  - OPTIONAL but recommended VM hardening step: Once the VM has been successfully deployed, access its network settings and select the RDP rule within the VM's 
+  - OPTIONAL but RECOMMENDED VM hardening step: Once the VM has been successfully deployed, access its network settings and select the RDP rule within the VM's 
     network security group inbound port rules.
       - Then change the source IP addresses that are allowed to establish an RDP connection to the VM via port 3389 from any ip address on the internet to only known 
         addresses (either an individual IP address or a range of known IP addresses)
@@ -85,5 +86,6 @@ This tutorial outlines the implementation and configuration of Active Directory 
          - Again the default network configurations are satisfactory.
      
      ![image](https://github.com/user-attachments/assets/60c3cbb9-094e-419b-9dd9-46e4c25eba26)
+
 
             
