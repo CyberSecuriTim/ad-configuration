@@ -186,3 +186,9 @@ This tutorial outlines the implementation and configuration of Active Directory 
     - Deployment operation: Add a new forest
     - Root domain name: (name it whatever you would like)...within the domain nomenclature rules
    ![image](https://github.com/user-attachments/assets/f4b67a88-a7c1-4316-8426-b930a32dfdda)
+
+  - "Domain Controller Options"
+    - The default configurations can be left unchanged
+    - Assign the Directory Services Restore Mode (DSRM) password...hopefully you won't need to use this 😅
+   
+    ![image](https://github.com/user-attachments/assets/4db7d981-2fc5-4102-a7b0-939d66f38840)
