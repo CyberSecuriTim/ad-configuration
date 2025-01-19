@@ -84,8 +84,13 @@ This tutorial outlines the implementation and configuration of Active Directory 
  
 
 
+<h3> STEP 1.75: Access the created the VM via its public IP address and your preferred Remote Desktop Connection client. </h3>
 
+- I used the Windows Remote Desktop Connection app for this lab.
 
+![image](https://github.com/user-attachments/assets/bca2fae7-7d1a-41e5-a552-eb12bee58493)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <h2> STEP 2: Create another Windows virtual machine that will be joined to the Active Directory domain as a client.  </h2>
 
