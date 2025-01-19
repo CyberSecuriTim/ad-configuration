@@ -320,4 +320,4 @@ This tutorial outlines the implementation and configuration of Active Directory 
 
 ![image](https://github.com/user-attachments/assets/363ffce8-8b89-4aa8-86d1-fd86de330e8f)  ![image](https://github.com/user-attachments/assets/e8f5fd3d-ba44-4d80-8c1e-6db01d77f090)
 
-
+  - The tried and true "drag and drop" method also works here to move the Client VM 
