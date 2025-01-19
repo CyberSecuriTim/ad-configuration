@@ -138,6 +138,16 @@ This tutorial outlines the implementation and configuration of Active Directory 
 
     ![image](https://github.com/user-attachments/assets/24c16eca-732f-4a2f-bc31-d3f9e2775afb)
 
+ - Open the command prompt (type "cmd.exe") in the windows search bar
+   - Dom-Con should be on but just confirm that it is...never hurts to check the obvious in IT. 😊 
+   - Attempt to ping Dom-Con's private IP address (should be 10.0.0.x) (mine was 10.0.0.4)
+     - "ping (dom-con private ip address) eg. "ping 10.0.0.4" 
+
+    ![image](https://github.com/user-attachments/assets/71e5fd4f-ef3f-4aa3-83f2-d62d87dd19bb)
+
+
+   - The command should have sent four ICMP echo request (ping) packets and received four ICMP Echo Replies as well as some network diagnostic data such as TTL 
+    (time to live) values and latency (round trip times).
  
 
 
