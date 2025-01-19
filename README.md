@@ -157,7 +157,18 @@ This tutorial outlines the implementation and configuration of Active Directory 
 
  
 
-<h2> STEP 3: Return to the Domain Controller virtual machine and Install Active Directory</h2>
+<h2> STEP 3: Return to the Dom-Con virtual machine (running Windows Server 2022) and Install Active Directory</h2>
 
-- 
+- Open the "Server Manager" program if it does not automatically open.
+  - Select "Add roles and features"
+  - Installation Type: Role-based or feature-based installation
+  - Server Selection: Select a server from the server pool
+      - Select "Dom-Con"
+   
+  - Server Roles: [X] Active Directory Domain Services (AD DS)
+      - Add features that are required for Active Directory Domain Services
+   
+  - Features: The default configurations can be left unchanged
+     ![image](https://github.com/user-attachments/assets/0e4f03ac-8da4-4e63-b3ef-43ffb84ac58f)
+
             
