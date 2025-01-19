@@ -212,3 +212,11 @@ This tutorial outlines the implementation and configuration of Active Directory 
     - The password remains the same as the original.
  
   ![image](https://github.com/user-attachments/assets/9553e529-28bb-47a4-a208-396b68d85088)
+
+
+  - Type "Active Directory Users and Computers" in the Windows search bar and open the program.
+    - Create an organizational unit called "_EMPLOYEES"
+      ![image](https://github.com/user-attachments/assets/a92ea68a-5170-4237-b32f-e89e28fd514c)
+      ![image](https://github.com/user-attachments/assets/bd905b6b-9574-4eea-8cdb-6c06d6cd5774)
+
+
