@@ -311,4 +311,8 @@ This tutorial outlines the implementation and configuration of Active Directory 
 ![image](https://github.com/user-attachments/assets/96d62a2c-208a-4c69-a608-b65742300403)
 
 
+- Create a new organizational unit (OU) named "_CLIENTS".
+  - Add the Domain Client VM to this new OU.
+ 
+![image](https://github.com/user-attachments/assets/be53e0ff-16f7-43a7-9b26-299dd5775db3)
 
