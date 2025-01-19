@@ -171,4 +171,8 @@ This tutorial outlines the implementation and configuration of Active Directory 
   - Features: The default configurations can be left unchanged
      ![image](https://github.com/user-attachments/assets/0e4f03ac-8da4-4e63-b3ef-43ffb84ac58f)
 
+  - Confirmation: [X] Restart the destination server automatically if required.
+
+  - Let the installation process run its course within the "Add Roles and Features Wizard".
+    - "Promote this server to a domain controller" when prompted.    
             
