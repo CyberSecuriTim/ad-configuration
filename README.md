@@ -24,7 +24,6 @@ This tutorial outlines the implementation and configuration of Active Directory 
 - Step 3: Install Active Directory
 - Step 4: Create an Active Directory Forest/Domain
 - Step 5: Join the Domain Client VM to the created Domain
-- Step 6: Configure Remote Desktop Access for Non-administrative users on the Domain client VM
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -321,3 +320,7 @@ This tutorial outlines the implementation and configuration of Active Directory 
 ![image](https://github.com/user-attachments/assets/363ffce8-8b89-4aa8-86d1-fd86de330e8f)  ![image](https://github.com/user-attachments/assets/e8f5fd3d-ba44-4d80-8c1e-6db01d77f090)
 
   - The tried and true "drag and drop" method also works here to move the Client VM 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<h2> Congratulations! You have successfully installed and configured Active Directory within your VM's and now have a domain with a Domain Controller and a 
+  a Domain Client. </h2>
