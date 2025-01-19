@@ -287,12 +287,18 @@ This tutorial outlines the implementation and configuration of Active Directory 
 
 ![image](https://github.com/user-attachments/assets/3467b2df-ad9a-44cf-916c-73f5c336415a) ![image](https://github.com/user-attachments/assets/25d6a44d-aeb9-4681-8fe2-4a5f8bf085ab)
 
+<h4> NOTE: The arbitrarily created domain name (eg. timsdomain.com) was able to be properly resolved and point towards our domain controller's IP address 
+  because remember we statically assigned the client VM's DNS server to be our Domain Controller VM which is obviously aware of its created domain name and 
+  the appropriate IP address associated with it (i.e. its own IP address)...the wonders of DNS! </h4>
 
-<h4> Welcome to the domain!!😃</h4>
+  
+<h3> Welcome to the domain!!😃</h3>
 
 ![image](https://github.com/user-attachments/assets/b93d74b3-9d8b-4907-8a5c-a69a8c1855c1)
 
+- Restart the VM to completely implement this change
 
+<h2> STEP 5.5: Reconnect to the Domain Controller VM to </h2>
 
 
 
