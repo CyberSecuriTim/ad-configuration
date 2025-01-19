@@ -262,6 +262,7 @@ This tutorial outlines the implementation and configuration of Active Directory 
 - OPTIONAL STEP: You can also run the command "net user (username of created domain admin account)" to verify the global group memberships for this account.
     - It should be a member of "Domain Admins"
 
-       ![image](https://github.com/user-attachments/assets/0f374145-a4da-433d-bda9-886d718d57a2)
+       ![image](https://github.com/user-attachments/assets/28f6581a-9738-4dc1-bba5-1c16347f7100)
+
 
 
