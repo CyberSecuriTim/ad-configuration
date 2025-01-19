@@ -238,4 +238,9 @@ This tutorial outlines the implementation and configuration of Active Directory 
   ![image](https://github.com/user-attachments/assets/3673cecd-a452-4ea5-bdbc-86ca125efde9)
 
  - Apply the changes and select "OK"
- - 
+
+<h3> NOTE: Adding this user to the "_ADMINS" organizational unit was nothing more than an arbitrary classification for the sake of simplicity in this
+      lab. The organizational unit could have been called anything (even rocketship). 🚀
+     
+  - What actually granted this user Admin privileges was making them a member of the "Domain Admins" security group.
+</h3>
