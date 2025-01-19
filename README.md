@@ -330,6 +330,7 @@ This tutorial outlines the implementation and configuration of Active Directory 
 
   - From the Azure portal's home page, navigate to the "Virtual Machines" resources and highlight both your VM's then select "Stop"
 
-![image](https://github.com/user-attachments/assets/d5f4df0c-f416-4060-b70a-989755ce27d6)
+![image](https://github.com/user-attachments/assets/bf7d9bf5-f6d4-49e3-af28-17edced16234)
+
 
 
