@@ -94,7 +94,7 @@ This tutorial outlines the implementation and configuration of Active Directory 
 - Access the Windows Defender Firewall with Advanced Security. 
   - Type "wf.msc" in the search bar in the bottom left corner
  
--  Ensure that the "Core Networking Diagnostics - ICMP Echo Requests (ICMPv4-In) inbound rule is enabled and the action is set to "Allow" for all three firewall 
+-  Ensure that the "Core Networking Diagnostics - ICMP Echo Requests (ICMPv4-In)" inbound rule is enabled and the action is set to "Allow" for all three firewall 
     profiles (Private, Public, Domain)
    - Sorting by protocol and looking for "ICMPv4" can help make your search for this firewall rule more efficient.
 
@@ -157,5 +157,7 @@ This tutorial outlines the implementation and configuration of Active Directory 
 
  
 
+<h2> STEP 3: Return to the Domain Controller virtual machine and Install Active Directory</h2>
 
+- 
             
