@@ -288,6 +288,11 @@ This tutorial outlines the implementation and configuration of Active Directory 
 ![image](https://github.com/user-attachments/assets/3467b2df-ad9a-44cf-916c-73f5c336415a) ![image](https://github.com/user-attachments/assets/25d6a44d-aeb9-4681-8fe2-4a5f8bf085ab)
 
 
+<h4> Welcome to the domain!!😃</h4>
+
+![image](https://github.com/user-attachments/assets/b93d74b3-9d8b-4907-8a5c-a69a8c1855c1)
+
+
 
 
 
