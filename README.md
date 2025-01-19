@@ -256,7 +256,7 @@ This tutorial outlines the implementation and configuration of Active Directory 
       - domainname\username: (eg. timsdomain.com\mr_robot)
       - username@domainname: (eg. mr_robot@timsdomain.com)
      
-      ![image](https://github.com/user-attachments/assets/40512e61-1ba8-4a76-99c2-c8ec873ea17e) ![image](https://github.com/user-attachments/assets/addd99d6-f872-4f64-82c7-345df553d05a)
+      ![image](https://github.com/user-attachments/assets/40512e61-1ba8-4a76-99c2-c8ec873ea17e) ![image](https://github.com/user-attachments/assets/cf6e844b-ced7-4c73-9d7b-51d3fe32d900)
 
 
 
