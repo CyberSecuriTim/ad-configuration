@@ -306,5 +306,9 @@ This tutorial outlines the implementation and configuration of Active Directory 
 ![image](https://github.com/user-attachments/assets/f9663cc7-b513-4b9a-8380-0aeee66f36b7)
 
 
+- Open ADUC (Active Directory Users and Computers) and verify that the Domain Client VM appears within the "Computers" container.
+
+![image](https://github.com/user-attachments/assets/96d62a2c-208a-4c69-a608-b65742300403)
+
 
 
