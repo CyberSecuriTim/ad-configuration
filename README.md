@@ -53,5 +53,13 @@ This tutorial outlines the implementation and configuration of Active Directory 
       - Simply check both boxes.
 
     ![image](https://github.com/user-attachments/assets/588d7e1a-fd24-47fe-93e4-ebd7b4a38dd3)
- 
+
+  - Navigate to the "Networking" tab and verify that a Virtual network and subnet have been created.
+      - The default configurations do not need to be changed.
+
+     ![image](https://github.com/user-attachments/assets/4d00bdc3-0f74-4af1-8585-6369e7e6e038)
+
+   - Now simply select "Review + create" 
+
+
 
