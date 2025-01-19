@@ -39,9 +39,9 @@ This tutorial outlines the implementation and configuration of Active Directory 
   - Select "Azure virtual machine"
  
 -  Under the "Basics" tab place the VM within a subscription and resource group (create new if needed)
-  -  Name the VM
-  -  Place it in a region that is geographically close to your current location (for optimal performance and minimal latency as data is traversing the network)
-  -  For the VM's operating system image select "Windows Server 2022 Datacenter: Azure Edition -x64 Gen2"
+    -  Name the VM
+    -  Place it in a region that is geographically close to your current location (for optimal performance and minimal latency as data is traversing the network)
+    -  For the VM's operating system image select "Windows Server 2022 Datacenter: Azure Edition -x64 Gen2"
 ![image](https://github.com/user-attachments/assets/89350a68-6353-425b-8cbb-09ada17087e0)
 
 -  
