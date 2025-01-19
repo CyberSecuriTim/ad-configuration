@@ -246,4 +246,6 @@ This tutorial outlines the implementation and configuration of Active Directory 
   - What actually granted this user Admin privileges was making them a member of the "Domain Admins" security group.
 </h3>
 
-STEP 4.5: Logout of the Domain Controller VM as the current Admin Account and Log in as the newly created Domain Admin Account
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<h2> STEP 4.5: Logout of the Domain Controller VM as the current Admin Account and Log in as the newly created Domain Admin Account </h2>
+
