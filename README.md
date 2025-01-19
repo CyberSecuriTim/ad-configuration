@@ -88,7 +88,8 @@ This tutorial outlines the implementation and configuration of Active Directory 
 
 - I used the Windows Remote Desktop Connection app for this lab.
 
-![image](https://github.com/user-attachments/assets/bca2fae7-7d1a-41e5-a552-eb12bee58493)
+![image](https://github.com/user-attachments/assets/e7fc2ba4-5652-4b19-9ddc-ea6385ad4e9a)
+
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
