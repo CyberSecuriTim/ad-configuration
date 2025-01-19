@@ -49,6 +49,7 @@ This tutorial outlines the implementation and configuration of Active Directory 
 
     - Assign the credentials for the VM's administrator account (make a note of them)
     - Select TCP port 3389 as an allowed inbound port (this will facilitate Remote Desktop connection to this VM)
+        - Ignore the security warning message for now, we will address it and harden this VM more later 😅  
     - Confirm your licensing to use the Windows Server operating system.
       - Simply check both boxes.
 
@@ -67,8 +68,8 @@ This tutorial outlines the implementation and configuration of Active Directory 
      port rules.
       - Then Change the source IP addresses that are allowed to establish an RDP connection to the VM via port 3389 from any ip address on the internet to only known 
         addresses (either an individual ip address or a range of known ip addresses)
-      - By restricting the allowed source IP addresses for RDP connections to only known ip addresses hardens this VM by significanly reducing its attack surface of
-        and thus bolstering its security posture. 
+      - By restricting the allowed source IP addresses for RDP connections to only known IP addresses, this hardens the VM by significanly reducing its attack 
+        surface and thus bolstering its security posture. 
 
      ![image](https://github.com/user-attachments/assets/d4df4d55-5f37-4196-aa4d-1c6641ff745f)
 
