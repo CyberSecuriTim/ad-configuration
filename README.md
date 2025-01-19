@@ -87,6 +87,7 @@ This tutorial outlines the implementation and configuration of Active Directory 
 <h3> STEP 1.75: Access the created the VM via its public IP address and your preferred Remote Desktop Connection client. </h3>
 
 - I used the Windows Remote Desktop Connection app for this lab.
+- Use the admin credentials that you assigned to the VM during its creation to login to the Remote Desktop session.
 
 ![image](https://github.com/user-attachments/assets/e7fc2ba4-5652-4b19-9ddc-ea6385ad4e9a)
 
@@ -125,9 +126,18 @@ This tutorial outlines the implementation and configuration of Active Directory 
      - Select its virtual Network Interface Card
        - Select DNS servers settings
          - Change the DNS servers from "inherit from virtual network" to custom and enter the private IP address of the Dom-Con VM.
-         - Save your changes.     
+         - Save your changes.
+        
+       - (From the Azure portal), select the Dom-Client VM and restart it just to ensure that the DNS server change takes effect.    
 
 ![image](https://github.com/user-attachments/assets/61ba7180-f667-40b4-82a8-20c7df5c1a9e)
+
+
+  - Establish a Remote Desktop connection to the Dom-Client VM using its public IP address, your preferred remote desktop connection client and the admin 
+    credentials that you assigned to this VM during its creation.
+
+    ![image](https://github.com/user-attachments/assets/24c16eca-732f-4a2f-bc31-d3f9e2775afb)
+
  
 
 
