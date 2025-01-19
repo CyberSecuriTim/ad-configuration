@@ -272,3 +272,22 @@ This tutorial outlines the implementation and configuration of Active Directory 
   - Login as the local admin account that was simultaneously created with the VM.  
 
 ![image](https://github.com/user-attachments/assets/d04d7eb5-8ea1-438c-8423-3a45420305fc)
+
+- Right Click the Windows button in the bottom left corner of the VM's desktop
+  - Select "System" to access the system settings.
+  - Click "Rename this PC (advanced)
+  - Within the "System Properties window"
+    - Click Change (to rename this computer or change its domain or workgroup)
+
+![image](https://github.com/user-attachments/assets/1a51e78f-b9d7-42c3-9ed9-af3589f9bf7d)
+
+   - Member of:
+     - Domain: (name of your created domain)
+   - Provide the credentials of an account with admin permissions to join the domain.
+
+![image](https://github.com/user-attachments/assets/3467b2df-ad9a-44cf-916c-73f5c336415a) ![image](https://github.com/user-attachments/assets/25d6a44d-aeb9-4681-8fe2-4a5f8bf085ab)
+
+
+
+
+
