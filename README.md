@@ -264,5 +264,11 @@ This tutorial outlines the implementation and configuration of Active Directory 
 
        ![image](https://github.com/user-attachments/assets/28f6581a-9738-4dc1-bba5-1c16347f7100)
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+<h2> STEP 5: Join the Windows 10 VM to the Newly Created Domain as a Client </h2>
 
+- Re-establish a remote desktop connection to the windows 10 VM in Azure if the previous connection was terminated.
+  - Login as the local admin account that was simultaneously created with the VM.  
+
+![image](https://github.com/user-attachments/assets/d04d7eb5-8ea1-438c-8423-3a45420305fc)
