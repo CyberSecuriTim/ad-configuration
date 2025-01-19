@@ -96,13 +96,15 @@ This tutorial outlines the implementation and configuration of Active Directory 
 -  Ensure that the "Core Networking Diagnostics - ICMP Echo Requests (ICMPv4-In) inbound rule is enabled and the action is set to "Allow" for all three firewall 
     profiles (Private, Public, Domain)
    - Sorting by protocol and looking for "ICMPv4" can help make your search for this firewall rule more efficient.
- 
+
+ ![image](https://github.com/user-attachments/assets/ed1f7f90-8686-43ba-b07d-76ce55059ab4)
+
 -  NOTE: By making this configuration change on the host-based firewall we enable ourselves to use the ping command line utility later in the lab to test the 
    connectivity of our client to the domain controller.  
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<h2> STEP 2: Create another Windows virtual machine that will be joined to the Active Directory domain as a client.  </h2>
+<h2> STEP 2: Create another Windows virtual machine that will eventually be joined to the Active Directory domain as a client.  </h2>
 
    - Please repeat the VM creatinon steps above (including the optional VM hardening step) to create a slightly different virtual machine.
      - Place it in the same resource group as the previous VM
