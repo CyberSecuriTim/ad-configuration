@@ -44,5 +44,14 @@ This tutorial outlines the implementation and configuration of Active Directory 
     -  For the VM's operating system image select "Windows Server 2022 Datacenter: Azure Edition -x64 Gen2"
 ![image](https://github.com/user-attachments/assets/89350a68-6353-425b-8cbb-09ada17087e0)
 
--  
+    -  Configure the VM's size to have at least 2 virtual CPU's and 8 GiB of memory (the more complex the VM specifications, the more money you will be charged to 
+        have it provisioned and hosted in Azure)
+
+    - Assign the credentials for the VM's administrator account (make a note of them)
+    - Select TCP port 3389 as an allowed inbound port (this will facilitate Remote Desktop connection to this VM)
+    - Confirm your licensing to use the Windows Server operating system.
+      - Simply check both boxes.
+
+    ![image](https://github.com/user-attachments/assets/588d7e1a-fd24-47fe-93e4-ebd7b4a38dd3)
+ 
 
