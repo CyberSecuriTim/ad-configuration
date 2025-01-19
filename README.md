@@ -231,4 +231,9 @@ This tutorial outlines the implementation and configuration of Active Directory 
     ![image](https://github.com/user-attachments/assets/8662eba3-2acc-4ed0-a605-90359439ecc9)
 
 
+- Add the new user account you just created to the "Domain Admins" security group.
+  - Right click the user (in the _ADMINS organizational unit) and select "Properties"
+    - Then select the "Member Of" tab and add this user to the "Domain Admins" security group.
+
+  ![image](https://github.com/user-attachments/assets/3673cecd-a452-4ea5-bdbc-86ca125efde9)
 
