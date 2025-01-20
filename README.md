@@ -49,7 +49,7 @@ This tutorial outlines the implementation and configuration of Active Directory 
     - Assign the credentials for the VM's administrator account (make a note of them)
     - Select TCP port 3389 as an allowed inbound port (this will facilitate Remote Desktop connection to this VM)
         - Ignore the security warning message for now, we will address it and harden this VM more later 😅  
-    - Confirm your licensing to use the Windows Server operating system.
+    - Confirm your licenses to use the Windows Server operating system.
       - Simply check both boxes.
 
     ![image](https://github.com/user-attachments/assets/588d7e1a-fd24-47fe-93e4-ebd7b4a38dd3)
