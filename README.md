@@ -10,7 +10,6 @@ This tutorial outlines the implementation and configuration of Active Directory 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Active Directory Domain Services (AD DS)
-- PowerShell
 
 <h2>Operating Systems Used </h2>
 
