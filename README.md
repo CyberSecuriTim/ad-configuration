@@ -60,15 +60,18 @@ This tutorial outlines the implementation and configuration of Active Directory 
      ![image](https://github.com/user-attachments/assets/4d00bdc3-0f74-4af1-8585-6369e7e6e038)
 
    - Now simply select "Review + create"
-       - The portal may produce an error initially, just return to the "Basics" tab then click "Review and create" again then the validation should be passed.
+       - The portal may produce an error initially, simply return to the "Basics" tab (verify the configurations are correct) then click "Review 
+         and create" again to resolve validation issues
    - Once the validation has been passed, click "Create" 
 
   
-  - OPTIONAL but RECOMMENDED VM hardening step: Once the VM has been successfully deployed, access its network settings and select the RDP rule within the VM's 
-    network security group inbound port rules.
-      - Then change the source IP addresses that are allowed to establish an RDP connection to the VM via port 3389 from any ip address on the internet to only known 
+  - OPTIONAL but RECOMMENDED VM hardening step: Once the VM has been successfully deployed, access its network settings and select the RDP rule 
+    within the VM's network security group inbound port rules.
+      - Then change the source IP addresses that are allowed to establish an RDP connection to the VM via port 3389 from any ip address on the 
+         internet to only known 
         addresses (either an individual IP address or a range of known IP addresses)
-      - By restricting the allowed source IP addresses for RDP connections to only known IP addresses, this hardens the VM by significanly reducing its attack 
+      - By restricting the allowed source IP addresses for RDP connections to only known IP addresses, this hardens the VM by significantly 
+         reducing its attack 
         surface and thus bolstering its security posture, as opposed to having this port exposed to the entire internet. 
 
      ![image](https://github.com/user-attachments/assets/d4df4d55-5f37-4196-aa4d-1c6641ff745f)
@@ -85,7 +88,7 @@ This tutorial outlines the implementation and configuration of Active Directory 
  
 
 
-<h3> STEP 1.75: Access the created the VM via its public IP address and your preferred Remote Desktop Connection client. </h3>
+<h3> STEP 1.75: Access the created VM via its public IP address and your preferred Remote Desktop Connection client. </h3>
 
 - I used the Windows Remote Desktop Connection app for this lab.
 - Use the admin credentials that you assigned to the VM during its creation to login to the Remote Desktop session.
@@ -95,20 +98,20 @@ This tutorial outlines the implementation and configuration of Active Directory 
 - Access the Windows Defender Firewall with Advanced Security. 
   - Type "wf.msc" in the search bar in the bottom left corner
  
--  Ensure that the "Core Networking Diagnostics - ICMP Echo Requests (ICMPv4-In)" inbound rule is enabled and the action is set to "Allow" for all three firewall 
-    profiles (Private, Public, Domain)
+-  Ensure that the "Core Networking Diagnostics - ICMP Echo Requests (ICMPv4-In)" inbound rule is enabled and the action is set to "Allow" for 
+   all three firewall profiles (Private, Public, Domain)
    - Sorting by protocol and looking for "ICMPv4" can help make your search for this firewall rule more efficient.
 
  ![image](https://github.com/user-attachments/assets/ed1f7f90-8686-43ba-b07d-76ce55059ab4)
 
--  NOTE: By making this configuration change on the host-based firewall we enable ourselves to use the ping command line utility later in the lab to test the 
-   connectivity of our client to the domain controller.  
+-  NOTE: By making this configuration change on the host-based firewall we enable ourselves to use the ping command line utility later in the 
+    lab to test the connectivity of our client to the domain controller.  
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <h2> STEP 2: Create another Windows virtual machine that will eventually be joined to the Active Directory domain as a client.  </h2>
 
-   - Please repeat the VM creatinon steps above (including the optional VM hardening step) to create a slightly different virtual machine.
+   - Please repeat the VM creation steps above (including the optional VM hardening step) to create a slightly different virtual machine.
      - Place it in the same resource group as the previous VM
      - Place it in the same region as well
      - VM OS image: Windows 10 Pro, version 22H2 -  x64 Gen2
@@ -126,7 +129,8 @@ This tutorial outlines the implementation and configuration of Active Directory 
    - Access the Dom-Client VM's network settings again.
      - Select its virtual Network Interface Card
        - Select DNS servers settings
-         - Change the DNS servers from "inherit from virtual network" to custom and enter the private IP address of the Dom-Con VM.
+         - Change the DNS servers from "inherit from virtual network" to "custom" and enter the Dom-Con (Domain Controller) VM's private IP 
+            address.
          - Save your changes.
         
        - (From the Azure portal), select the Dom-Client VM and restart it just to ensure that the DNS server change takes effect.    
