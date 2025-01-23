@@ -55,7 +55,7 @@ This tutorial outlines the implementation and configuration of Active Directory 
     ![image](https://github.com/user-attachments/assets/588d7e1a-fd24-47fe-93e4-ebd7b4a38dd3)
 
   - Navigate to the "Networking" tab and verify that a Virtual network and subnet have been created.
-      - The default configurations do not need to be changed.
+      - The default settings do not need to be changed.
 
      ![image](https://github.com/user-attachments/assets/4d00bdc3-0f74-4af1-8585-6369e7e6e038)
 
@@ -196,12 +196,12 @@ This tutorial outlines the implementation and configuration of Active Directory 
 
   - "Domain Controller Options"
     - The default configurations can be left unchanged
-    - Assign the Directory Services Restore Mode (DSRM) password...hopefully you won't need to use this 😅
+    - Assign the Directory Services Restore Mode (DSRM) password...hopefully you won't need to use this for any recovery scenarios😅
    
     ![image](https://github.com/user-attachments/assets/4db7d981-2fc5-4102-a7b0-939d66f38840)
 
     - "DNS Options": Leave "create DNS delegation" unchecked
-  - Additional Options": verify the NetBIOS name
+  - "Additional Options": verify the NetBIOS name
  
   ![image](https://github.com/user-attachments/assets/3ab63fbf-a82d-4b51-887b-3a3b15dc8a03)
 
@@ -240,7 +240,7 @@ This tutorial outlines the implementation and configuration of Active Directory 
 
 - Add the new user account you just created to the "Domain Admins" security group.
   - Right click the user (in the _ADMINS organizational unit) and select "Properties"
-    - Then select the "Member Of" tab and add this user to the "Domain Admins" security group.
+    - Then select the "Member Of" tab and add the user to the "Domain Admins" security group.
 
   ![image](https://github.com/user-attachments/assets/3673cecd-a452-4ea5-bdbc-86ca125efde9)
 
@@ -265,7 +265,8 @@ This tutorial outlines the implementation and configuration of Active Directory 
       ![image](https://github.com/user-attachments/assets/40512e61-1ba8-4a76-99c2-c8ec873ea17e) ![image](https://github.com/user-attachments/assets/cf6e844b-ced7-4c73-9d7b-51d3fe32d900)
 
 
-- OPTIONAL STEP: You can also run the command "net user (username of created domain admin account)" to verify the global group memberships for this account.
+- OPTIONAL STEP: You can also run the command "net user (created domain admin's username)" to verify the global group memberships for 
+  this account.
     - It should be a member of "Domain Admins"
 
        ![image](https://github.com/user-attachments/assets/28f6581a-9738-4dc1-bba5-1c16347f7100)
@@ -275,13 +276,13 @@ This tutorial outlines the implementation and configuration of Active Directory 
 <h2> STEP 5: Join the Windows 10 VM to the Newly Created Domain as a Client </h2>
 
 - Re-establish a remote desktop connection to the windows 10 VM in Azure if the previous connection was terminated.
-  - Login as the local admin account that was simultaneously created with the VM.  
+  - Log in as the local admin account that was simultaneously created with the VM.  
 
 ![image](https://github.com/user-attachments/assets/d04d7eb5-8ea1-438c-8423-3a45420305fc)
 
 - Right Click the Windows button in the bottom left corner of the VM's desktop
   - Select "System" to access the system settings.
-  - Click "Rename this PC (advanced)
+  - Click "Rename this PC (advanced)"
   - Within the "System Properties window"
     - Click Change (to rename this computer or change its domain or workgroup)
 
@@ -293,9 +294,9 @@ This tutorial outlines the implementation and configuration of Active Directory 
 
 ![image](https://github.com/user-attachments/assets/3467b2df-ad9a-44cf-916c-73f5c336415a) ![image](https://github.com/user-attachments/assets/25d6a44d-aeb9-4681-8fe2-4a5f8bf085ab)
 
-<h4> NOTE: The arbitrarily created domain name (eg. timsdomain.com) was able to be properly resolved and point towards our domain controller's IP address 
-  because remember we statically assigned the client VM's DNS server to be our Domain Controller VM which is obviously aware of its created domain name and 
-  the appropriate IP address associated with it (i.e. its own IP address)...the wonders of DNS! </h4>
+<h4> NOTE: The arbitrarily created domain name (eg. timsdomain.com) was able to be properly resolved and point towards our domain controller's 
+ IP address because remember we statically assigned the client VM's DNS server to be our Domain Controller VM which is obviously aware of its 
+ created domain name and the appropriate IP address associated with it (i.e. its own IP address)...the wonders of DNS! </h4>
 
   
 <h3> Welcome to the domain!!😃</h3>
@@ -306,7 +307,8 @@ This tutorial outlines the implementation and configuration of Active Directory 
 
 <h2> STEP 5.5: Reconnect to the Domain Controller VM to verify that the other VM has successfully joined the domain.</h2>
 
-- Login to the VM using either of the admin accounts that have been created so far (i.e. the local admin account or the recently created Domain Admin account)
+- Login to the VM using either of the admin accounts that have been created so far (i.e. the local admin account or the recently created Domain 
+ Admin account)
   - I will be using the latter (the mr_robot account).
 
 ![image](https://github.com/user-attachments/assets/f9663cc7-b513-4b9a-8380-0aeee66f36b7)
@@ -333,7 +335,7 @@ This tutorial outlines the implementation and configuration of Active Directory 
   a Domain Client. 🎊</h2>
 
   <h5> If you would like to take a temporary break and want to reduce the cost of hosting your VM and computing resources in Azure then you can 
-       Stop/Deallocate your VM's within the Azure portal. </h5>
+       Stop/Deallocate your VMs within the Azure portal. </h5>
 
   - From the Azure portal's home page, navigate to the "Virtual Machines" resources and highlight both your VM's then select "Stop"
 
