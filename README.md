@@ -14,12 +14,12 @@ This tutorial outlines the implementation and configuration of Active Directory 
 <h2>Operating Systems Used </h2>
 
 - Windows Server 2022
-- Windows 10 (21H2)
+- Windows 10 (22H2)
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1: Create the Domain Controller VM
-- Step 2: Create the Domain client VM
+- Step 2: Create the Domain Client VM
 - Step 3: Install Active Directory
 - Step 4: Create an Active Directory Forest/Domain
 - Step 5: Join the Domain Client VM to the created Domain
@@ -28,9 +28,9 @@ This tutorial outlines the implementation and configuration of Active Directory 
 
 <h2>
   
-  STEP 1: Create a virtual machine within the [Azure Portal](https://portal.azure.com) that will be used as the Active Directory Domain Controller. 
+  STEP 1: Create a virtual machine using the [Azure Portal](https://portal.azure.com) that will be used as the Active Directory Domain Controller. 
    
-  - NOTE: You will be required to create a new resource group, new virtual network (Vnet) and virtual subnet during the creation of your new VM.
+  - NOTE: You will be required to create a new resource group, new virtual network (VNet) and virtual subnet during the creation of your new VM.
 </h2>
 
 - (From the Azure portal's home page) select or search for "Virtual machines", then select Create
