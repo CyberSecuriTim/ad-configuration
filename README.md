@@ -38,12 +38,13 @@ This tutorial outlines the implementation and configuration of Active Directory 
  
 -  Under the "Basics" tab place the VM within a subscription and resource group (create new if needed)
     -  Name the VM
-    -  Place it in a region that is geographically close to your current location (for optimal performance and minimal latency as data is traversing the network)
-    -  For the VM's operating system image select "Windows Server 2022 Datacenter: Azure Edition -x64 Gen2"
+    -  Place it in a region that is geographically close to your current location (for optimal performance and minimal latency as data is 
+       traversing the network).
+    -  For the VM's operating system image, select "Windows Server 2022 Datacenter: Azure Edition -x64 Gen2"
 ![image](https://github.com/user-attachments/assets/89350a68-6353-425b-8cbb-09ada17087e0)
 
-    -  Configure the VM's size to have at least 2 virtual CPU's and 8 GiB of memory (the more complex the VM specifications, the more money you will be charged to 
-        have it provisioned and hosted in Azure)
+    -  Configure the VM's size to have at least 2 virtual CPU's and 8 GiB of memory (the more complex the VM specifications, the more money you 
+       will be charged to have it provisioned and hosted in Azure)
 
     - Assign the credentials for the VM's administrator account (make a note of them)
     - Select TCP port 3389 as an allowed inbound port (this will facilitate Remote Desktop connection to this VM)
